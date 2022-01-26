@@ -17,7 +17,7 @@ document.body.addEventListener("click", (e) => {
         var value = e1.options[e1.selectedIndex].value;
         var text = e1.options[e1.selectedIndex].textContent;
         console.log(bi);
-        if (bi == `https://prince-dhamecha.github.io/capture-hero/${value}.jpg`) {
+        if (bi == `http://capture-hero.tk/${value}.jpg`) {
             let cur = parseInt(document.querySelector(".score").textContent);
             cur += 5;
             document.querySelector(".score").textContent = cur;
